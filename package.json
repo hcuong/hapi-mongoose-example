@@ -1,0 +1,27 @@
+{
+  "name": "authentication-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "nodemon build/backend.js",
+    "watch": "export NODE_PATH=$NODE_PATH./src/controllers; webpack --watch -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cuong <cuongcua90@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^8.4.0",
+    "lodash": "^3.7.0",
+    "mongoose": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^5.0.8",
+    "babel-loader": "^5.0.0",
+    "source-map-support": "^0.2.10",
+    "webpack": "^1.7.3"
+  },
+  "babel": {
+    "experimental": true
+  }
+}
